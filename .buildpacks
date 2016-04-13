@@ -1,2 +1,2 @@
-server=heroku/nodejs
-client=heroku/nodejs
+server=https://github.com/heroku/heroku-buildpack-nodejs.git
+client=https://github.com/heroku/heroku-buildpack-nodejs.git
