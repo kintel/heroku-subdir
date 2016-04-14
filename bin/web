@@ -1,0 +1,5 @@
+#!/bin/sh
+
+printenv
+cd server
+./node_modules/.bin/babel-node src/main.js
