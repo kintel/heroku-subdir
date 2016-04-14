@@ -1,3 +1,4 @@
 server=https://github.com/heroku/heroku-buildpack-nodejs.git
 client=https://github.com/heroku/heroku-buildpack-nodejs.git
 client=https://github.com/jerrysu/heroku-buildpack-webpack
+https://github.com/heroku/heroku-buildpack-nodejs.git
