@@ -25,7 +25,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       inject: false, // Done by html-webpack-template
       template: 'node_modules/html-webpack-template/index.ejs',
-      title: 'Eynventory',
+      title: 'Heroku Subdir',
       appMountId: 'content',
       favicon: 'images/favicon.ico',
       minify: {

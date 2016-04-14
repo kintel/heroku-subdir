@@ -4,9 +4,8 @@ import request from 'superagent';
 
 request.get('/api/ping').end((err, res) => {
   if (!err && res.statusCode == 200) {
-    console.log(res.body) // Show the HTML for the Google homepage.
     const element = document.getElementById('version');
-    element.innerHTML = res.body.version;
+    element.innerHTML = res.body.version; // Yes, not very react'y of us..
   }
 });
 
